@@ -1,0 +1,63 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250324161206
+Username: DESKTOP-934FNIF\HOME
+RunAs User: DESKTOP-934FNIF\HOME
+Configuration Name: 
+Machine: DESKTOP-934FNIF (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 1520
+PSVersion: 5.1.19041.5486
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.5486
+BuildVersion: 10.0.19041.5486
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\HOME\Documents\demo.txt
+PS C:\Windows\system32> cd C:\Users\HOME\Documents
+parser.exe
+
+parser.exe : The term 'parser.exe' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:2 char:1
++ parser.exe
++ ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (parser.exe:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+parser.exe : The term 'parser.exe' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:2 char:1
++ parser.exe
++ ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (parser.exe:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\HOME\Documents> cd C:\Users\HOME\Documents
+PS C:\Users\HOME\Documents> parser.exe
+parser.exe : The term 'parser.exe' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ parser.exe
++ ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (parser.exe:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+parser.exe : The term 'parser.exe' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ parser.exe
++ ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (parser.exe:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\HOME\Documents> cd C:\Users\HOME\Documents
+
+PS C:\Users\HOME\Documents> .\parser.exe
+
+x = 10;
+
+Γ£à Parsed: Assignment Statement
+Stop-Transcript
+Syntax Error: syntax error
